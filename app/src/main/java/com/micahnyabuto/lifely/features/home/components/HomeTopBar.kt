@@ -41,7 +41,7 @@ fun HomeTopBar(){
                         modifier = Modifier
                             .size(35.dp)
                             .clip(CircleShape)
-                            .background(Color.White)
+                            .background(Color.LightGray)
                     )
                 }
             )
