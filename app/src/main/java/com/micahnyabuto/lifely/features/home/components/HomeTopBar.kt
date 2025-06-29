@@ -30,7 +30,7 @@ fun HomeTopBar(){
             TopAppBar(
                 title = {
                     Row {
-                        Text("Welcome ,Micah👋",
+                        Text("Welcome ,John Doe👋",
                             fontWeight = FontWeight.Bold)
                     }
                 },
