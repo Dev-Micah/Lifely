@@ -2,11 +2,10 @@ package com.micahnyabuto.lifely.core.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.micahnyabuto.lifely.features.foods.FoodsScreen
+import com.micahnyabuto.lifely.features.foods.FoodScreen
 import com.micahnyabuto.lifely.features.home.HomeScreen
 import com.micahnyabuto.lifely.features.logmeal.LogMealScreen
 import com.micahnyabuto.lifely.features.profile.ProfileScreen
@@ -25,7 +24,7 @@ fun AppNavHost(
             HomeScreen()
         }
         composable<Destinations.Foods> {
-            FoodsScreen()
+            FoodScreen()
         }
         composable<Destinations.LogMeal> {
             LogMealScreen()
