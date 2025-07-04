@@ -16,6 +16,7 @@ class FoodViewModel(private val repository: IndigenousFoodRepository) : ViewMode
 
     fun fetchFoods() {
         viewModelScope.launch {
+
             val loaded = repository.loadFoods()
             _foods.value = loaded
         }
