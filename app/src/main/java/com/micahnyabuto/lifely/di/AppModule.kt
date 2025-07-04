@@ -1,10 +1,15 @@
 package com.micahnyabuto.lifely.di
 
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.micahnyabuto.lifely.core.data.local.FoodDatabase
+import com.micahnyabuto.lifely.core.data.repository.FoodRepository
 import com.micahnyabuto.lifely.core.data.repository.FoodRepositoryImpl
+import com.micahnyabuto.lifely.core.data.repository.IndigenousFoodRepository
+import com.micahnyabuto.lifely.features.foods.FoodViewModel
 import org.koin.android.ext.koin.androidContext
+import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val appModule = module{
@@ -19,8 +24,15 @@ val appModule = module{
     single {
         get<FoodDatabase>().foodDao()
     }
-    single {
+    single<FoodRepository> {
         FoodRepositoryImpl(get())
+    }
+    single {
+        IndigenousFoodRepository(get())
+    }
+
+    viewModel {
+        FoodViewModel(get())
     }
 
 }
