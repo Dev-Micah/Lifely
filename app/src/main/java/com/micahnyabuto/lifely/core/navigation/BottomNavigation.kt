@@ -12,32 +12,32 @@ enum class BottomNavigation(
     val label: String,
     val selectedIcon: ImageVector,
     val unselectedIcon: ImageVector,
-    val route: Any
+    val route: String
 
 ) {
     Home(
         label = "Home",
         selectedIcon = Icons.Default.Home,
         unselectedIcon = Icons.Default.Home,
-        route = Destinations.Home
+        route = Destinations.Home.route
     ),
     Foods(
         label = "Foods",
         selectedIcon = Icons.Default.Category,
         unselectedIcon = Icons.Default.Category,
-        route = Destinations.Foods
+        route = Destinations.Foods.route
     ),
     LogMeal(
         label = "Log a meal",
         selectedIcon = Icons.Default.AddBox,
         unselectedIcon = Icons.Default.AddBox,
-        route = Destinations.LogMeal
+        route = Destinations.Meals.route
     ),
     Profile(
         label = "Profile",
         selectedIcon = Icons.Default.Person,
         unselectedIcon = Icons.Default.Person,
-        route = Destinations.Profile
+        route = Destinations.Profile.route
     )
 
 
