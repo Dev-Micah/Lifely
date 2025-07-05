@@ -1,8 +1,6 @@
 package com.micahnyabuto.lifely.di
 
-import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.room.Room
-import androidx.room.RoomDatabase
 import com.micahnyabuto.lifely.core.data.local.FoodDatabase
 import com.micahnyabuto.lifely.core.data.repository.FoodRepository
 import com.micahnyabuto.lifely.core.data.repository.FoodRepositoryImpl
