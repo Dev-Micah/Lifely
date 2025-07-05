@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Managu",
+    "category": "Vegetable",
+    "description": "African nightshade commonly eaten in East Africa.",
+    "benefits": "Rich in iron, calcium, vitamin A and C.",
+    "calories": 43,
+    "imageName": "managu"
+  },
+  {
+    "name": "Terere",
+    "category": "Vegetable",
+    "description": "Amaranth leaves widely consumed in traditional diets.",
+    "benefits": "High in protein, calcium and antioxidants.",
+    "calories": 36,
+    "imageName": "terere"
+  },
+  {
+    "name": "Mrenda",
+    "category": "Vegetable",
+    "description": "Jute mallow with a slimy texture when cooked.",
+    "benefits": "Good source of iron and folate; aids digestion.",
+    "calories": 41,
+    "imageName": "mrenda"
+  },
+  {
+    "name": "Nduma",
+    "category": "Root",
+    "description": "Arrowroots; a traditional starchy food.",
+    "benefits": "Gluten-free and high in dietary fiber.",
+    "calories": 86,
+    "imageName": "nduma"
+  },
+  {
+    "name": "Sweet Potato",
+    "category": "Root",
+    "description": "Orange-fleshed sweet potato rich in beta-carotene.",
+    "benefits": "Improves eye health and provides energy.",
+    "calories": 86,
+    "imageName": "ngwashi"
+  },
+  {
+    "name": "Sorghum",
+    "category": "Grain",
+    "description": "Ancient drought-resistant grain.",
+    "benefits": "Rich in fiber and iron; gluten-free.",
+    "calories": 329,
+    "imageName": "sorghum"
+  },
+  {
+    "name": "Finger Millet (Wimbi)",
+    "category": "Grain",
+    "description": "Used for porridge and traditional meals.",
+    "benefits": "High in calcium and iron; great for bones.",
+    "calories": 336,
+    "imageName": "wimbi"
+  },
+  {
+    "name": "Njahi",
+    "category": "Legume",
+    "description": "Lablab beans common in Kenyan communities.",
+    "benefits": "High in protein, iron and dietary fiber.",
+    "calories": 117,
+    "imageName": "njahi"
+  },
+  {
+    "name": "Pumpkin Leaves",
+    "category": "Vegetable",
+    "description": "Commonly cooked with groundnuts or milk.",
+    "benefits": "Boosts immunity and improves digestion.",
+    "calories": 33,
+    "imageName": "Risosa"
+  },
+  {
+    "name": "Baobab Fruit",
+    "category": "Fruit",
+    "description": "Superfood from the baobab tree.",
+    "benefits": "Extremely rich in Vitamin C and fiber.",
+    "calories": 250,
+    "imageName": "mabuyu"
+  },
+  {
+    "name": "Kales (Sukuma Wiki)",
+    "category": "Vegetable",
+    "description": "Widely consumed green leafy vegetable.",
+    "benefits": "Rich in Vitamin K, A, C, and fiber.",
+    "calories": 35,
+    "imageName": "sukuma"
+  },
+  {
+    "name": "Cassava",
+    "category": "Root",
+    "description": "Starchy root used as staple food.",
+    "benefits": "High in carbohydrates for energy.",
+    "calories": 160,
+    "imageName": "muhogo"
+  },
+  {
+    "name": "Cowpeas Leaves (Kunde)",
+    "category": "Vegetable",
+    "description": "Popular leafy vegetable across East Africa.",
+    "benefits": "Rich in protein, iron, and vitamins.",
+    "calories": 40,
+    "imageName": "kunde"
+  },
+  {
+    "name": "Groundnuts",
+    "category": "Legume",
+    "description": "Commonly eaten roasted or in sauces.",
+    "benefits": "Good source of healthy fats and protein.",
+    "calories": 567,
+    "imageName": "njugu"
+  },
+  {
+    "name": "African Yam Bean",
+    "category": "Legume",
+    "description": "Traditional legume high in protein.",
+    "benefits": "Improves food security and nutrition.",
+    "calories": 135,
+    "imageName": "yambean"
+  },
+  {
+    "name": "Mchicha",
+    "category": "Vegetable",
+    "description": "Wild spinach eaten across East Africa.",
+    "benefits": "Good source of iron and Vitamin C.",
+    "calories": 23,
+    "imageName": "mchicha"
+  },
+  {
+    "name": "Papaya",
+    "category": "Fruit",
+    "description": "Tropical fruit eaten fresh or in salads.",
+    "benefits": "Rich in Vitamin C and digestive enzymes.",
+    "calories": 43,
+    "imageName": "papaya"
+  },
+  {
+    "name": "Avocado",
+    "category": "Fruit",
+    "description": "Nutrient-dense fruit used in salads.",
+    "benefits": "High in healthy fats and fiber.",
+    "calories": 160,
+    "imageName": "avocado"
+  },
+  {
+    "name": "Pigeon Peas (Mbaazi)",
+    "category": "Legume",
+    "description": "Widely used in coastal Kenyan dishes.",
+    "benefits": "Good protein source; improves soil fertility.",
+    "calories": 343,
+    "imageName": "mbaazi"
+  },
+  {
+    "name": "Wild Mushrooms",
+    "category": "Vegetable",
+    "description": "Collected seasonally from forests.",
+    "benefits": "Rich in minerals and low in calories.",
+    "calories": 22,
+    "imageName": "mushroom"
+  }
+]
