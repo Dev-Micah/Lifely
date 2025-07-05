@@ -1,20 +1,18 @@
 package com.micahnyabuto.lifely.core.navigation
 
-import kotlinx.serialization.Serializable
+sealed class Destinations(val route: String) {
+    object Foods : Destinations("foodList")
+    object Details : Destinations("foodDetails/{foodName}")
 
-sealed class Destinations {
-    @Serializable
-    object Home
+    object Home : Destinations( "home")
 
-    @Serializable
-    object Foods
+    object Profile: Destinations ("profile")
 
-    @Serializable
-    object LogMeal
+    object Meals : Destinations("meals")
 
-    @Serializable
-    object Profile
+    object Splash: Destinations("splash")
 
-    @Serializable
-    object Splash
+    fun detailsRoute(foodName: String) = "foodDetails/$foodName"
+
+
 }
